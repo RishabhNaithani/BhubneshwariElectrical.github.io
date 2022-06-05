@@ -1,0 +1,238 @@
+*{
+     margin: 0;
+     padding: 0;
+}
+.hr{
+     color: aqua;
+}
+/* #logo{
+     animation: logon;
+     animation-duration: 4s;
+
+
+} */
+
+h1{
+     position: relative;
+     margin-top:150px;
+     color: white;
+}
+h2{
+     color: white;
+}
+body
+{
+     background-color: rgba(2, 3, 19);
+}
+#button{
+    text-align: center;
+    display: block;
+    padding: 50px;
+    background-color:#00172d;
+    border-radius: 10px;
+    margin: 70px;
+    padding: 20px;
+   
+}
+#logo{
+     left: 0%;
+     width: 900px;
+     height: 150px;
+     animation: logon 4s ease none 1 ease;
+}
+@keyframes logon {
+     0%{
+          left:0;
+     }
+     100%{
+          left:100%;
+     }
+     
+}
+
+
+
+.but-2{
+     
+    
+     border-radius:20px ;
+     font-size:25px;
+     position: relative;
+     left: 40%;
+     width: 250px; 
+     height: 50px;
+    padding: 0px;
+    color: rgba(0,0,0,0.9);
+     background-color: #73a5c6;
+     text-align:center;
+     transition:all 0.5s ease 0s;
+}
+.but-2:hover{
+     cursor: pointer;
+     height:75px;
+     background-color:#bbdffa;
+}
+.but-3{
+  
+     border-color:silver;
+     border-radius:1000px ;
+     font-size:25px;
+     position: relative;
+     left: 20%;
+     width: 250px; 
+     height: 50px;
+     padding: 0px;
+     color: rgba(0,0,0,0.9);
+     background-color: #73a5c6;
+     text-align:center;
+     transition: all 0.5s ease 0s;
+}
+.but-3:hover{
+     cursor: pointer;
+     height: 100px;
+     background-color: #bbdffa;
+     
+}
+.but-4{
+    
+     border-color:silver;
+     border-radius:600px ;
+     font-size:25px;
+     position: relative;
+     left: 0%;
+     width: 250px; 
+     height: 50px;
+    padding: 0px;
+    color: rgba(0,0,0,0.9);
+     background-color: #73a5c6;
+     text-align:center;
+     transition: all 0.5s ease 0s;
+     
+}
+.but-4:hover{
+     height: 100px;
+     cursor: pointer;
+
+     background-color: #bbdffa;
+}
+
+#slider{
+
+     overflow: hidden;
+     margin-top:30px;
+  }
+  #slider figure{
+       display: block;
+       background-color: white;
+       
+       padding: 5px;
+       position: relative;
+       width: 500%;
+       margin-left: 0;
+       animation: 5s slider infinite;
+  }
+  #slider figure img{
+       width: 20%;
+       
+       float:inline-end;
+  }
+  @keyframes slider{
+      
+      0%{
+           left:0%;
+      }
+      33%{
+           left:-100%;
+      }
+      66%{
+           left:-200%;
+      }
+      100%{
+           left:0;
+      }
+     
+  }
+  .sizeofimages{
+     position: relative;
+     
+    height: 200px;     
+  }
+    
+  .grid{
+       display: grid;
+       left: 0%;
+       margin-left: 0%;
+       column-gap: 70px;
+       grid-template-columns: repeat(3,1fr);
+     
+       background-color:#111229;
+       border-radius: 60px;
+       padding: 5px;
+  }
+
+
+  pr{
+       display:grid;
+       padding: 60px ;
+       
+       background-color: orange;
+      
+  }
+  .animate{
+       position: relative;
+     text-align: center;
+     justify-content: center;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 50px;   
+       background-color: red;
+          border-radius: 30px;
+            color: green;
+          width: 300px;
+          height: 200px;
+          animation:an 2s ease infinite;
+
+
+  }
+  
+  @keyframes an{
+      0%{ background-color: yellowgreen;
+       border-radius: 100%;
+     }
+     50%{
+          border-radius: 20px;
+          background-color: yellow;
+     }
+     100%{
+          border-radius: 100%;
+          background-color: yellowgreen;
+     }
+  }
+#brands{
+     
+     cursor: pointer;
+     background-color: yellow;
+     width: 100px;
+     height: 100px;
+}
+#link{
+     
+     width: 100px;
+     height: 100px;
+     animation: lin;
+}
+/* @keyframes lin 
+{
+     0%{
+          background-image: ;
+     }
+      */
+/* } */
+#gfl{
+     display: grid;
+     text-align: center;
+     align-content: center;
+     justify-items: center;
+     column-gap: 20px;
+     grid-template-columns: repeat(3,1fr);    
+}
+
